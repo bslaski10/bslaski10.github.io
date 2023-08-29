@@ -1,0 +1,41 @@
+/* Structure */
+
+body {
+    background-color: aqua;
+}
+
+/* Tables */
+
+td, th{
+    border: 5px dotted yellow;
+}
+
+th{
+    background-color: aliceblue;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+/* Typography */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: blueviolet;
+}
+
+h1{
+    color:chocolate
+}
+
+h2{
+    color: crimson;
+}
+
+table{
+    color: pink;
+}
