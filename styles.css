@@ -1,5 +1,5 @@
 body {
-    background-color:#D9DCD6;
+    background-color:#2F6690;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -25,4 +25,11 @@ border-radius: 2px;
 
 #name{
     font-style: italic;
+}
+
+#div{
+    background-color:#D9DCD6;
+    width: 75%;
+    margin:auto;
+    padding:5px;
 }
