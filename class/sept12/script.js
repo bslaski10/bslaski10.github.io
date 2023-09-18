@@ -15,5 +15,7 @@ const hideGhost = () => {
 
 window.onload = () => {
     document.getElementById("button-click").onclick = changeText;
+    document.getElementById("button-show").onclick = showGhost;
+    document.getElementById("button-hide").onclick = hideGhost;
 }
 
