@@ -34,9 +34,8 @@ h2,h3{
     text-align: center;
 }
 
-#button-exercise-one:hover,
-#button-exercise-two:hover {
-    text-decoration: underline;
+.active-button {
+    text-decoration: underline red;
 }
 
 /* Form */

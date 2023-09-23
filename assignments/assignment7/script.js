@@ -66,14 +66,19 @@ const colorThermometer = () => {
     const hideDivFund = document.getElementById("fund-raising");
     hideDivFund.classList.add("hidden");
     hideDivAge.classList.remove("hidden");
-  }
+    document.getElementById("button-exercise-one").classList.add("active-button");
+    document.getElementById("button-exercise-two").classList.remove("active-button");
+}
 
-  const exerciseTwo = () => {
+const exerciseTwo = () => {
     const hideDivFund = document.getElementById("fund-raising");
     const hideDivAge = document.getElementById("age-check");
     hideDivAge.classList.add("hidden");
     hideDivFund.classList.remove("hidden");
-  }
+    document.getElementById("button-exercise-two").classList.add("active-button");
+    document.getElementById("button-exercise-one").classList.remove("active-button");
+}
+
   
   window.onload = () => {
     document.getElementById("hamburger").onclick = toggleNav;
