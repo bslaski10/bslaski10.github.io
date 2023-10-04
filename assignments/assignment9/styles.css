@@ -1,0 +1,86 @@
+/*Structure*/
+
+body{
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+p{
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    padding: 20px
+}
+
+.column {
+    flex: 1;
+    background-color: rgb(0, 153, 255);
+    padding: 20px;
+}
+
+/* Slideshow */
+
+#slideshow {
+    background: rgb(0, 153, 255);
+    width: 100%;
+    text-align: center;
+}
+
+#slideshow p {
+    font-size: 19px;
+}
+
+.hidden {
+   display: none;
+}
+
+/* Rainbow */
+#draw-rainbow {
+    padding: 5px;
+    background-color: black;
+    color: rgb(0, 153, 255);
+    border-radius: 5px;
+}
+
+#draw-rainbow-container {
+    padding: 10px;
+}
+
+#rainbow-container{
+    position: relative;
+}
+
+#potagold-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.color-line {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+
+/* Typography */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media Query */
+
+@media (max-width: 1000px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
