@@ -3,7 +3,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -21,22 +21,22 @@ position: relative; /* So we can center content inside */
 }
 
 .home {
-background-image: url("images/jasp-tree.jpg");
+background-image: url("img/dog.jpg");
 }
 
 .face {
-background-image: url("images/jasp-house.jpg");
+background-image: url("img/dog.jpg");
 }
 
 .leash {
-background-image: url("images/jasp-leash.jpg");
+background-image: url("img/dog.jpg");
 }
 
 .info-section {
-background-color: #595a5c;
+background-color: blue;
 font-size: 36px;
 padding: 1%;
-color: white;
+color: black;
 }
 
 .info-section section {
@@ -59,26 +59,26 @@ margin: auto;
 }
 
 /* Main Menu */
-#main-menu {
+#main-nav {
 z-index: 1;
-background-color: #595a5c;
+background-color: blue;
 position: fixed;
 top: 0;
 width: 100%;
 }
 
-#main-menu ul {
+#main-nav ul {
 float: right;
 overflow: hidden;
 margin-right: 2%;
 }
 
-#main-menu li {
+#main-nav li {
 list-style-type: none;
 display: inline-block;
 }
 
-#main-menu a {
+#main-nav a {
 text-decoration: none;
 color: white;
 padding: 10px;

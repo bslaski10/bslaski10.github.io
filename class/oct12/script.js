@@ -3,5 +3,5 @@ const toggleNav = () => {
 }
 
 window.onload = () => {
-    document.getElementById("nav-toggle").onclick = toggleNav;
+    document.getElementById("hamburger").onclick = toggleNav;
 }
