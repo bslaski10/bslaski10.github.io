@@ -3,6 +3,7 @@
 body {
     background-color: white;
     overflow-x: hidden;
+    color: maroon;
 }
 
 header #main-title {
@@ -18,6 +19,13 @@ header #main-title {
     display: flex;
 }
 
+h1{
+    color: black;
+}
+p{
+    font-size: 20px;
+}
+
 /* Navigation */
 #button-home,
 #button-roster,
@@ -25,7 +33,7 @@ header #main-title {
 #button-my-tickets,
 #button-game-ratings,
 #button-log-in {
-    border: 2px solid blue; 
+    border: 2px solid maroon; 
     font-size: 12px;
     background: none;
     margin: 0; 
@@ -35,7 +43,7 @@ header #main-title {
 }
 
 #button-container {
-    border: 2px solid blue;
+    border: 2px solid maroon;
     padding: 0px;
     width: 90%;
 }
@@ -48,7 +56,7 @@ header #main-title {
 #hamburger div {
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: maroon;
     margin: 6px 0;
 }
 
@@ -61,7 +69,7 @@ header #main-title {
 }
 
 #button-schedule{
-    background-color: blue;
+    background-color: maroon;
     color: white;
 }
 
@@ -99,7 +107,7 @@ header #main-title {
     position: relative;
     width: 90%;
     height: 150px;
-    background-color: grey;
+    background-color: maroon;
     border-radius: 20px;
     text-align: center;
     padding: 20px;
@@ -125,23 +133,32 @@ header #main-title {
     width: 15px;
 }
 
+.third p{
+    font-size: 24px;
+}
+
+.fourth p{
+    font-size: 16px;
+}
+
 .first, .second, .third, .fourth {
     position: absolute;
     color: white; 
 }
 
+
 .first {
-    top: 10px; 
+    top: 0px; 
     left: 200px; 
 }
 
 .second {
-    top: 10px; 
+    top: 0px; 
     right: 10px; 
 }
 
 .third {
-    bottom: 10px; 
+    bottom: 0px; 
     left: 200px; 
 }
 

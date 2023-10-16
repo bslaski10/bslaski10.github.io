@@ -6,7 +6,7 @@ body {
 
 header #main-title {
     text-align: center;
-    font-size: 42px; /* Use !important to ensure the font size is applied */
+    font-size: 42px;
 }
 
 h1 {
@@ -18,6 +18,9 @@ h2, h3 {
     padding: 10px;
 }
 
+p{
+    font-size: 30px;
+}
 .columns {
     display: flex;
 }
@@ -29,17 +32,17 @@ h2, h3 {
 #button-my-tickets,
 #button-game-ratings,
 #button-log-in {
-    border: 2px solid blue; /* Add a blue border with a 2px width */
+    border: 2px solid maroon; 
     font-size: 12px;
     background: none;
-    margin: 0; /* Remove the default margin */
+    margin: 0; 
     padding: 1.5%; 
-    width: 16.66%; /* Divide the container into 6 equal parts for 6 buttons */
-    text-align: center; /* Center button text */
+    width: 16.66%; 
+    text-align: center; 
 }
 
 #button-container {
-    border: 2px solid blue;
+    border: 2px solid maroon;
     padding: 0;
     width: 90%;
 }
@@ -52,7 +55,7 @@ h2, h3 {
 #hamburger div {
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: maroon;
     margin: 6px 0;
 }
 
@@ -65,7 +68,7 @@ h2, h3 {
 }
 
 #button-roster{
-    background-color: blue;
+    background-color: maroon;
     color: white;
 }
 
@@ -90,7 +93,7 @@ h2, h3 {
     position: relative;
     width: 90%;
     height: 150px;
-    background-color: grey;
+    background-color: maroon;
     border-radius: 20px;
     text-align: center;
     padding: 20px;
@@ -118,23 +121,23 @@ h2, h3 {
 }
 
 .name {
-    top: 10px; 
+    top: 0px; 
     left: 150px; 
 }
 
 .pos {
-    top: 10px; 
-    right: 10px; 
+    top: 0px; 
+    right: 20px; 
 }
 
 .year {
-    bottom: 10px; 
+    bottom: 0px; 
     left: 150px; 
 }
 
 .age {
-    bottom: 10px; 
-    right: 10px; 
+    bottom: 0px; 
+    right: 20px; 
 }
 
 /* Typography */

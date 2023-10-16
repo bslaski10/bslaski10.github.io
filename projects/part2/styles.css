@@ -7,15 +7,18 @@ body {
 header #main-title {
     text-align: center;
     font-size: 42px; 
+    color: black;
 }
 
 h1 {
     text-align: left;
+    color:maroon;
 }
 
 h2, h3 {
     text-align: center;
     padding: 10px;
+    color: maroon;
 }
 
 .columns {
@@ -29,7 +32,7 @@ h2, h3 {
 #button-my-tickets,
 #button-game-ratings,
 #button-log-in {
-    border: 2px solid blue; 
+    border: 2px solid maroon; 
     font-size: 12px;
     background: none;
     margin: 0; 
@@ -39,12 +42,12 @@ h2, h3 {
 }
 
 #button-home{
-    background-color: blue;
+    background-color: maroon;
     color: white;
 }
 
 #button-container {
-    border: 2px solid blue;
+    border: 2px solid maroon;
     padding: 0;
     width: 90%;
 }
@@ -57,7 +60,7 @@ h2, h3 {
 #hamburger div {
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: maroon;
     margin: 6px 0;
 }
 
