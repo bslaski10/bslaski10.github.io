@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ratings</title>
+    <link rel="stylesheet" href="ratings.css" />
+    <script src="ratings.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Game Ratings</h1>
+    </header>
+
+    <nav id="main-nav">
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul id="nav-items" class="hide-small">
+            <div id="button-container">
+                <table>
+                    <a href="index.html"><button id="button-home">Home</button></a>
+                    <a href="roster.html"><button id="button-roster">Roster</button></a>
+                    <a href="schedule.html"><button id="button-schedule">Schedule</button></a>
+                    <a href="tickets.html"><button id="button-my-tickets">Tickets</button></a>
+                    <a href="ratings.html"><button id="button-game-ratings">Ratings</button></a>
+                    <a href="login.html"><button id="button-log-in">Log In</button></a>
+                </table>
+            </div>
+        </ul>
+    </nav>
+    <div id="new-rating">
+    <p class="columns">
+        <label for="txt-opponet">Opponet:</label>
+        <input type="text" id="txt-opponet">
+    </p>
+    <p class="columns">
+        <label for="txt-location">Location:</label>
+        <input type="number" id="txt-location">
+    </p>
+    <p class="columns">
+        <label for="txt-date">Date:</label>
+        <input type="text" id="txt-date">
+    </p>
+    <p class="columns">
+        <label for="txt-rating">Rating:</label>
+        <input type="number" id="txt-rating">
+    </p>
+    <p class="columns">
+        <label for="txt-description">Description: </label>
+        <input type="text" id="txt-description">
+        <button id="button-add-rating">Add Game Rating</button>
+    </p>
+</div>  
+    
+  
+ <h1>My Ratings:</h1>
+        <div id="rectangle">
+            <div class="text-container">
+                <div class="first">
+                    <p>South Carolina Gamecocks vs Team Name</p>
+                </div>
+                <div class="second">
+                    <p>Date</p>
+                </div>
+                <div class="third">
+                    <p>Location</p>
+                </div>
+                <div class="fourth">
+                    <p>#/10 Rating</p>
+                </div>
+                <div class="fifth">
+                    <p id="d-left">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+            </div>
+        </div>    
+</body>
+</html>

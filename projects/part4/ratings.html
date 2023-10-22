@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ratings</title>
+    <link rel="stylesheet" href="ratings.css" />
+    <script src="ratings.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Game Ratings</h1>
+    </header>
+
+    <nav id="main-nav">
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul id="nav-items" class="hide-small">
+            <div id="button-container">
+                <table>
+                    <a href="index.html"><button id="button-home">Home</button></a>
+                    <a href="roster.html"><button id="button-roster">Roster</button></a>
+                    <a href="schedule.html"><button id="button-schedule">Schedule</button></a>
+                    <a href="tickets.html"><button id="button-my-tickets">Tickets</button></a>
+                    <a href="ratings.html"><button id="button-game-ratings">Ratings</button></a>
+                    <a href="login.html"><button id="button-log-in">Log In</button></a>
+                </table>
+            </div>
+        </ul>
+    </nav>
+    
+    <h1 class="middle-title">Add a Game Rating</h1>
+    <form id="form-rating">
+      <p class="columns">
+          <label for="txt-opponent">Opponent:</label>
+          <input type="text" id="txt-opponent" name="opponent" required placeholder="opponent" />
+      </p>
+      <p class="columns">
+          <label for="txt-location">Location:</label>
+          <input type="text" id="txt-location" name="location" required placeholder="location" />
+      </p>
+      <p class="columns">
+          <label for="txt-date">Date:</label>
+          <input type="date" id="txt-date" name="date" required />
+      </p>
+      <p class="columns">
+          <label for="txt-rating">Rating:</label>
+          <input type="number" id="txt-rating" name="rating" required min="0" max="10" />
+      </p>
+      <p class="columns">
+          <label for="txt-description">Description:</label>
+          <textarea id="txt-description" name="description" rows="4" required></textarea>
+      </p>
+      <p class="columns">
+          <button type="submit" id="button-add-rating">Add Game Rating</button>
+      </p>
+  
+  
+  <section id="success" class="hidden">
+    <p>
+      Your game rating has been added to the end of the "My Ratings" 
+    </p>
+  </section>
+</form>
+  
+    <h1>My Ratings:</h1>
+        <div class="rectangle">
+            <div class="text-container">
+                <div class="first">
+                    <p>South Carolina vs Tennessee</p>
+                </div>
+                <div class="second">
+                    <p>Sept 30</p>
+                </div>
+                <div class="third">
+                    <p>Knoxville, Tenn.</p>
+                </div>
+                <div class="fourth">
+                    <p>3/10 Rating</p>
+                </div>
+                <div class="fifth">
+                    <p id="d-left">Description: As a carolina fan who had a lot of hope for this game it was looking fine at the start. This all changed at the end of the first half where our qb spencer rattler threw an interception. Sadly since that we were not able to cut it close and fell to a score of 20-41. </p>
+                </div>
+            </div>
+        </div>
+        <div id="results"></div>    
+</body>
+</html>

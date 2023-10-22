@@ -1,0 +1,203 @@
+/* Structure */
+
+body {
+    background-color: white;
+}
+
+header #main-title {
+    text-align: center;
+    font-size: 42px; 
+}
+
+h1 {
+    text-align: left;
+}
+
+h2, h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.columns {
+    display: flex;
+}
+
+/* Navigation */
+#button-home,
+#button-roster,
+#button-schedule,
+#button-my-tickets,
+#button-game-ratings,
+#button-log-in {
+    border: 2px solid blue; 
+    font-size: 12px;
+    background: none;
+    margin: 0; 
+    padding: 1.5%; 
+    width: 16.66%; 
+    text-align: center;
+}
+
+#button-home{
+    background-color: blue;
+    color: white;
+}
+
+#button-container {
+    border: 2px solid blue;
+    padding: 0;
+    width: 90%;
+}
+
+#main-nav ul {
+    text-align: center;
+    width: 100%;
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.hide-small {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Body */
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.content-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-section:nth-child(even) {
+    background-color: #e5e2e2;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.column:hover {
+    transform: scale(1.05);
+}
+
+.column a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-columns {
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Typography */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media Querey */
+@media only screen and (min-width: 1000px) {
+    .main-nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #main-nav li {
+        display: inline-block;
+    }
+    #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
+    #button-home,
+#button-roster,
+#button-schedule,
+#button-my-tickets,
+#button-game-ratings,
+#button-log-in {
+     font-size: 20px;
+}
+}

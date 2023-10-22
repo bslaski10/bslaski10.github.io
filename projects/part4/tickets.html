@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tickets</title>
+    <link rel="stylesheet" href="tickets.css" />
+    <script src="tickets.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">My Tickets</h1>
+    </header>
+
+    <nav id="main-nav">
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul id="nav-items" class="hide-small">
+            <div id="button-container">
+                <table>
+                    <a href="index.html"><button id="button-home">Home</button></a>
+                    <a href="roster.html"><button id="button-roster">Roster</button></a>
+                    <a href="schedule.html"><button id="button-schedule">Schedule</button></a>
+                    <a href="tickets.html"><button id="button-my-tickets">Tickets</button></a>
+                    <a href="ratings.html"><button id="button-game-ratings">Ratings</button></a>
+                    <a href="login.html"><button id="button-log-in">Log In</button></a>
+                </table>
+            </div>
+        </ul>
+    </nav>
+
+ 
+        <div class="rectangle">
+            <div class="img-container">
+                <img src="img/kent.jpg" alt="Image">
+            </div>
+            <div class="text-container">
+                <div class="first">
+                    <p>South Carolina vs Kentucky</p>
+                </div>
+                <div class="second">
+                    <p>Nov 18</p>
+                </div>
+                <div class="third">
+                    <p>Columbia, S.C.</p>
+                </div>
+                <div class="fourth">
+                    <p class="columns">
+                        <label for="amount">Tickets to Remove:</label>
+                        <input type="text" id="amount">
+                        <button id="button-amount">Remove</button>
+                        <label class="owned">Tickets Owned: #</label>
+                    </p>
+                </div>
+                
+            </div>
+        </div>    
+        <div class="rectangle">
+            <div class="img-container">
+                <img src="img/clem.jpg" alt="Image">
+            </div>
+            <div class="text-container">
+                <div class="first">
+                    <p>South Carolina vs Clemson</p>
+                </div>
+                <div class="second">
+                    <p>Nov 25</p>
+                </div>
+                <div class="third">
+                    <p>Columbia, S.C.</p>
+                </div>
+                <div class="fourth">
+                    <p class="columns">
+                        <label for="amount">Tickets to Remove:</label>
+                        <input type="text" id="amount">
+                        <button id="button-amount">Remove</button>
+                        <label class="owned">Tickets Owned: #</label>
+                    </p>
+                </div>
+            </div>
+        </div>    
+</body>
+</html>
