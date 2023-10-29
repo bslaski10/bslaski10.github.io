@@ -18,6 +18,10 @@ body {
    box-shadow: 5px 5px 5px lightblue;
   }
 
+  img:hover {
+    transform: scale(1.2);
+ }
+
   #movie {
     justify-content: center;
     max-width: 90%;
