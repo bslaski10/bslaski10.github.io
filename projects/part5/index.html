@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Part 1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">South Carolina Football</h1>
+    </header>
+
+    <nav id="main-nav">
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul id="nav-items" class="hide-small">
+            <div id="button-container">
+                <table>
+                    <a href="index.html"><button id="button-home">Home</button></a>
+                    <a href="roster.html"><button id="button-roster">Roster</button></a>
+                    <a href="schedule.html"><button id="button-schedule">Schedule</button></a>
+                    <a href="tickets.html"><button id="button-my-tickets">Tickets</button></a>
+                    <a href="ratings.html"><button id="button-game-ratings">Ratings</button></a>
+                    <a href="login.html"><button id="button-log-in">Log In</button></a>
+                </table>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="content-section content-background">
+        <div class="content-text">
+            <h1 class="title-left">History</h1>
+            <p>The South Carolina Gamecocks football program represents the University of South Carolina. The Gamecocks compete in the Football Bowl Subdivision of the National Collegiate Athletic Association (NCAA) and the Eastern Division of the Southeastern Conference. The team's head coach is Shane Beamer. They play their home games at Williams–Brice Stadium.</p>
+        </div>
+        <div class="content-image">
+            <img src="img/stadium.jpg" width="800px" height="500px">
+        </div>
+    </div>
+
+    <div class="content-section content-background">
+        <div class="content-image">
+            <img src="img/schedule.jpg" width="800px" height="500px">
+        </div>
+        <div class="content-text">
+            <h1 class="title-left">Schedule</h1>
+            <p>According to college football personality Phil Steele, the Gamecocks have the nation’s toughest schedule based on opponents’ win percentages from 2022, and it really isn’t that close. The Gamecocks’ 2023 opponents won 66% of their games last season. The rest of the top-13 in strength of schedule have their opponents’ 2022 win percentages somewhere between 60% and 62.7%.</p>
+        </div>
+    </div>
+
+    <section class="contact content-background"></section>
+    
+        <div class="contact-find-title">
+            <h1>Contact Our Team</h1>
+            <h1>Find The Stadium</h1>
+        </div>
+    
+        <div class="columns">
+            <div class="contact">
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="06a00804-566a-4401-9448-10fc7a0dc61a">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" placeholder="name" name="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" placeholder="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </p>
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                    <input type="hidden" name="subject" value="Contact from South Carolina Football Website">
+                    <input type="hidden" name="from_name" value="My Website">
+                    <p>
+                        <button type="submit">Submit Form</button>
+                    </p>
+                    <p id="result"></p>
+                </form>
+            </div>
+            <div class="content-image">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.75685988884!2d-81.02176032442148!3d33.97308837318697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8baef1321f791%3A0x83f44871f4a3c265!2sWilliams-Brice%20Stadium!5e0!3m2!1sen!2sus!4v1697848079637!5m2!1sen!2sus" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div class="content-background">
+        <h1 class="more-title">More Features</h1>
+        <section class="columns">
+            <div class="column">
+                <a>
+                    <img src="img/helmet.jpg" width="400px" height="400px">
+                    <h2>Roster</h2>
+                    <p>The University of South Carolina's football roster boasts a diverse and talented group of athletes, representing a promising mix of experienced veterans and promising newcomers. Click here to get to know them!</p>
+                </a>
+            </div>
+            <div class="column">
+                <a>
+                    <img src="img/logo.jpg" width="400px" height="400px">
+                    <h2>Rate Games</h2>
+                    <p>Went to the game or watched it online? Click here to provided feedback on your thoughts about the team by rating it and giving a description on your thoughts about the gamecocks!</p>
+                </a>
+            </div>
+            <div class="column">
+                <a>
+                    <img src="img/ticket.jpg" width="400px" height="400px">
+                    <h2>My Tickets</h2>
+                    <p>Purchasing tickets for a University of South Carolina game is your gateway to an unforgettable college football experience. Click here to purchase tickets for yourself, as well as, your friends and family!</p>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
