@@ -36,19 +36,19 @@ const getMovieItem = (movie) => {
     section.append(name);
     
     const director = document.createElement("p");
-    director.innerHTML = "<strong>Director:</strong> " + movie.director;
+    director.innerHTML = "<strong>Director:</strong> " + "";
     section.append(director);
     
     const actors = document.createElement("p");
-    actors.innerHTML = "<strong>Actors:</strong> " + movie.actors.join(", ");
+    actors.innerHTML = "<strong>Actors:</strong> " + "";
     section.append(actors);
     
     const year = document.createElement("p");
-    year.innerHTML = "<strong>Year Released:</strong> " + movie.year;
+    year.innerHTML = "<strong>Year Released:</strong> " + "";
     section.append(year);
     
     const genres = document.createElement("p");
-    genres.innerHTML = "<strong>Genres:</strong> " + movie.genres.join(", ");
+    genres.innerHTML = "<strong>Genres:</strong> " + "";
     section.append(genres);
     
     const description = document.createElement("p");
